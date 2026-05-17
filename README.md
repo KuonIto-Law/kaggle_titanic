@@ -2,6 +2,13 @@
 
 ---
 
+## Results
+
+**Kaggle Leaderboard: 327th place — Top ~2%**
+(Titanic - Machine Learning from Disaster)
+
+---
+
 ## 1 Overview
 
 This model combines a WCG (Woman-Child-Group) model (Figure 1) with XGBoost for survival prediction. The WCG model predicts survival for women and children (boys) at the family-group level based on group information, and this is added as a single feature. Combined with 6 additional features, XGBoost is used to predict passenger survival (Survived).
